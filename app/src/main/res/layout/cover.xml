@@ -5,6 +5,10 @@
     android:orientation="horizontal"
     android:gravity="center"
     tools:ignore="UseCompoundDrawables">
+    <FrameLayout
+        android:id="@+id/cover_frag_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
 
 <ImageView
 android:layout_width="100dp"

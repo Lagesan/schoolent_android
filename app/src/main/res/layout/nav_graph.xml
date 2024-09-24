@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/coverFragment">
+
+    <fragment
+        android:id="@+id/coverFragment"
+        android:name="com.observer.schoolent.CoverFragment"
+        android:label="Cover Fragment">
+        <action
+            android:id="@+id/action_coverFragment_to_homePageFragment"
+            app:destination="@id/homePageFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/homePageFragment"
+        android:name="com.observer.schoolent.HomePageFragment"
+        android:label="Home Page Fragment" />
+</navigation>
